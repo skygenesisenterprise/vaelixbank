@@ -66,7 +66,7 @@ configure_runtime() {
 
 display_header() {
     echo ""
-    echo "Kami-Sama development container"
+    echo "Vaelix Bank development container"
     echo ""
     log_info "Node env: ${NODE_ENV}"
     log_info "Frontend: http://localhost:${FRONTEND_PORT}"
@@ -344,7 +344,7 @@ run_server() {
     configure_runtime
     setup_pnpm
 
-    log_info "Kami-Sama frontend starting"
+    log_info "Vaelix Bank frontend starting"
     log_info "Frontend listening on 0.0.0.0:${FRONTEND_PORT}"
 
     if [ -d /app/apps ]; then
@@ -372,7 +372,7 @@ run_server() {
 run_air() {
     configure_runtime
 
-    log_info "Kami-Sama API starting (hot-reload)"
+    log_info "Vaelix Bank API starting (hot-reload)"
 
     if ! run_prisma_schema_deploy; then
         if [ "${ALLOW_MIGRATION_FAILURE}" = "true" ]; then

@@ -1,7 +1,7 @@
 {
-  "name": "kami-sama",
+  "name": "vaelixbank",
   "version": "0.1.0",
-  "description": "Modern mail server foundation with complete authentication system and monorepo architecture",
+  "description": "An open-source sovereign, privacy-first neobank designed for transparency, interoperability, and ethical finance.",
   "private": true,
   "type": "module",
   "workspaces": [
