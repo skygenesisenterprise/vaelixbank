@@ -1,0 +1,12 @@
+packages:
+  - "apps"
+  - "tools"
+  - "tests"
+  - "packages/bot"
+  - "packages/node"
+  - "packages/cli"
+  - "server/prisma"
+
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
